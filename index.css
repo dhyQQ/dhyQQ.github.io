@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header,section,footer{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: pink;
+}
+header,footer{
+    height: 80px;
+}
+section{
+    margin: 20px auto;
+    overflow: hidden;
+}
+section>div{
+    float: left;
+    background-color: #ccc;
+    /* height: 300px; */
+}
+.left{
+    width: 680px;
+    margin-right: 20px;
+    height: 300px;
+}
+.right{
+    width: 300px;
+}
+
+.right>div{
+    height: 200px;
+    background-color: yellow;
+}
+.right>div:nth-child(-n+2){
+    margin-bottom: 20px;
+}
